@@ -13,7 +13,8 @@ This plugin works only with Logseq db version.
 
 ## Overview
 
-If the fetch is performed and the title can be retrieved from the site, the URL string is converted to markdown
+Press the Convert button next to the URL and the URL string will be converted to markdown.
+![17](https://github.com/user-attachments/assets/10ccacc6-d217-45e1-aa58-d64cf3bc3b14)
 
 ---
 
@@ -24,9 +25,14 @@ Install from Logseq Marketplace
 
 ### Usage
 
-
+- Paste the URL into the block and press Enter to exit edit mode.
+- Only in non-editing mode, a conversion button appears next to the external link (URL string).
+- Pressing the convert button performs the fetch and if the title can be retrieved from the site, the URL string is converted to markdown.
 
 ### Plugin Settings
+
+- Toggle: Convert to markdown even if the title could not be retrieved from the URL.
+- Change icon (or as text)
 
 ---
 
@@ -37,5 +43,5 @@ Install from Logseq Marketplace
 
 ## Contribution / Prior art / Credit
 
-- Icon > [icooon-mono.com](https://icooon-mono.com/)
+- Icon > [icooon-mono.com](https://icooon-mono.com/10968-%e3%83%aa%e3%83%b3%e3%82%af%e3%81%ae%e3%83%95%e3%83%aa%e3%83%bc%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b31/)
 - Author > @[YU000jp](https://github.com/YU000jp)
