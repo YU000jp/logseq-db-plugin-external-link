@@ -1,5 +1,11 @@
 export const getTitleFromURL = async (url: string): Promise<string> => {
     try {
+        // URLがhttps://github.com/で始まる場合はフェッチせずにタイトルを返す fetchできないため
+        if (url.startsWith("https://github.com/")) {
+            const title = url.substring("https://github.com/".length)
+            console.log("GitHub URL detected, title: ", title)
+            return title
+        }
         console.log("fetch: ", url)
         const res = await fetch(url) as Response
         if (!res.ok) return ''
