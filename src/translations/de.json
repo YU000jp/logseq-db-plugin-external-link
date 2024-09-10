@@ -1,0 +1,10 @@
+{
+  "Get the title from the site and convert the URL string in the block to markdown": "Rufen Sie den Titel von der Website ab, und konvertieren Sie die URL-Zeichenfolge im Block in Markdown.",
+  "Title could not be retrieved from the site.": "Der Titel konnte nicht von der Website abgerufen werden.",
+  "If the site is strict about fetch, nothing can be retrieved.": "Wenn die Site beim Abrufen streng ist, kann nichts abgerufen werden.",
+  "Title": "Titel",
+  "Convert to markdown even if the title could not be retrieved from the URL.": "Konvertieren Sie in Markdown, auch wenn der Titel nicht über die URL abgerufen werden konnte.",
+  "Toggle": "Umschalten",
+  "Change icon (or as text)": "Symbol ändern (oder als Text)",
+  "Emoji or strings": "Emoji oder Zeichenfolgen"
+}

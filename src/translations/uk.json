@@ -1,0 +1,10 @@
+{
+  "Get the title from the site and convert the URL string in the block to markdown": "Отримати заголовок з сайту і перевести рядок URL в блоці в markdown",
+  "Title could not be retrieved from the site.": "Право власності не вдалося отримати з сайту.",
+  "If the site is strict about fetch, nothing can be retrieved.": "Якщо сайт суворо ставиться до отримання, нічого не можна витягнути.",
+  "Title": "Назва",
+  "Convert to markdown even if the title could not be retrieved from the URL.": "Перетворіть на markdown, навіть якщо заголовок не вдалося отримати з URL-адреси.",
+  "Toggle": "Перемикання",
+  "Change icon (or as text)": "Змінити піктограму (або у вигляді тексту)",
+  "Emoji or strings": "Емодзі або рядки"
+}

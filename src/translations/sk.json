@@ -1,0 +1,10 @@
+{
+  "Get the title from the site and convert the URL string in the block to markdown": "Získajte názov z webu a preveďte reťazec URL v bloku na markdown",
+  "Title could not be retrieved from the site.": "Názov sa nepodarilo získať zo stránky.",
+  "If the site is strict about fetch, nothing can be retrieved.": "Ak je stránka prísna na načítanie, nie je možné nič získať.",
+  "Title": "Titul",
+  "Convert to markdown even if the title could not be retrieved from the URL.": "Konvertujte na markdown aj v prípade, že názov nebolo možné načítať z URL adresy.",
+  "Toggle": "Prepnúť",
+  "Change icon (or as text)": "Zmeniť ikonu (alebo ako text)",
+  "Emoji or strings": "Emodži alebo reťazce"
+}

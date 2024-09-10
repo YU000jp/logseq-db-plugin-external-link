@@ -1,0 +1,10 @@
+{
+  "Get the title from the site and convert the URL string in the block to markdown": "Dapatkan judul dari situs dan ubah string URL di blok menjadi markdown",
+  "Title could not be retrieved from the site.": "Judul tidak dapat diambil dari situs.",
+  "If the site is strict about fetch, nothing can be retrieved.": "Jika situs ketat tentang pengambilan, tidak ada yang dapat diambil.",
+  "Title": "Titel",
+  "Convert to markdown even if the title could not be retrieved from the URL.": "Konversi ke markdown meskipun judul tidak dapat diambil dari URL.",
+  "Toggle": "Beralih",
+  "Change icon (or as text)": "Ubah ikon (atau sebagai teks)",
+  "Emoji or strings": "Emoji atau string"
+}

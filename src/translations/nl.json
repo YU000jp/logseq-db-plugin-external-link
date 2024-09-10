@@ -1,0 +1,10 @@
+{
+  "Get the title from the site and convert the URL string in the block to markdown": "Haal de titel van de site op en converteer de URL-string in het blok naar markdown",
+  "Title could not be retrieved from the site.": "De titel kan niet van de site worden opgehaald.",
+  "If the site is strict about fetch, nothing can be retrieved.": "Als de site streng is over ophalen, kan er niets worden opgehaald.",
+  "Title": "Titel",
+  "Convert to markdown even if the title could not be retrieved from the URL.": "Converteren naar markdown, zelfs als de titel niet uit de URL kan worden opgehaald.",
+  "Toggle": "Knevel",
+  "Change icon (or as text)": "Pictogram wijzigen (of als tekst)",
+  "Emoji or strings": "Emoji of tekenreeksen"
+}

@@ -1,0 +1,10 @@
+{
+  "Get the title from the site and convert the URL string in the block to markdown": "Hent tittelen fra nettstedet og konverter URL-strengen i blokken til markdown",
+  "Title could not be retrieved from the site.": "Tittelen kunne ikke hentes fra nettstedet.",
+  "If the site is strict about fetch, nothing can be retrieved.": "Hvis nettstedet er strengt med henting, kan ingenting hentes.",
+  "Title": "Tittel",
+  "Convert to markdown even if the title could not be retrieved from the URL.": "Konverter til markdown selv om tittelen ikke kunne hentes fra URL-en.",
+  "Toggle": "Veksle",
+  "Change icon (or as text)": "Endre ikon (eller som tekst)",
+  "Emoji or strings": "Emoji eller strenger"
+}

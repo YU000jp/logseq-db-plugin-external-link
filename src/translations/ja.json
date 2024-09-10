@@ -1,0 +1,10 @@
+{
+  "Get the title from the site and convert the URL string in the block to markdown": "サイトからタイトルを取得し、ブロック内のURL文字列をマークダウンに変換します",
+  "Title could not be retrieved from the site.": "タイトルがサイトから取得できませんでした。",
+  "If the site is strict about fetch, nothing can be retrieved.": "もしサイトが外部からんのfetchに厳しい場合は、取得できません。",
+  "Title": "タイトル",
+  "Convert to markdown even if the title could not be retrieved from the URL.": "タイトルがURLから取得できなかった場合でも、マークダウンに変換します。",
+  "Toggle": "トグル",
+  "Change icon (or as text)": "アイコンの変更（またはテキスト）",
+  "Emoji or strings": "絵文字もしくは文字列"
+}

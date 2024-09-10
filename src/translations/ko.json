@@ -1,0 +1,10 @@
+{
+  "Get the title from the site and convert the URL string in the block to markdown": "사이트에서 제목을 가져오고 블록의 URL 문자열을 마크다운으로 변환합니다.",
+  "Title could not be retrieved from the site.": "사이트에서 제목을 검색할 수 없습니다.",
+  "If the site is strict about fetch, nothing can be retrieved.": "사이트가 가져오기에 대해 엄격하면 아무 것도 검색할 수 없습니다.",
+  "Title": "타이틀",
+  "Convert to markdown even if the title could not be retrieved from the URL.": "URL에서 제목을 검색할 수 없는 경우에도 마크다운으로 변환합니다.",
+  "Toggle": "토글",
+  "Change icon (or as text)": "아이콘 변경(또는 텍스트로)",
+  "Emoji or strings": "이모티콘 또는 문자열"
+}

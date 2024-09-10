@@ -1,0 +1,10 @@
+{
+  "Get the title from the site and convert the URL string in the block to markdown": "Получите заголовок с сайта и преобразуйте строку URL в блоке в разметку",
+  "Title could not be retrieved from the site.": "Не удалось восстановить право собственности с сайта.",
+  "If the site is strict about fetch, nothing can be retrieved.": "Если сайт строго следит за выборкой, ничего не может быть восстановлено.",
+  "Title": "Титул",
+  "Convert to markdown even if the title could not be retrieved from the URL.": "Преобразуйте в Markdown, даже если заголовок не удалось получить из URL-адреса.",
+  "Toggle": "Коленчатый рычаг",
+  "Change icon (or as text)": "Изменить иконку (или как текст)",
+  "Emoji or strings": "Эмодзи или строки"
+}

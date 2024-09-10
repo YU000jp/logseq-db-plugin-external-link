@@ -1,0 +1,10 @@
+{
+  "Get the title from the site and convert the URL string in the block to markdown": "Siteden başlığı alın ve bloktaki URL dizesini markdown'a dönüştürün",
+  "Title could not be retrieved from the site.": "Başlık siteden alınamadı.",
+  "If the site is strict about fetch, nothing can be retrieved.": "Site getirme konusunda katıysa, hiçbir şey geri alınamaz.",
+  "Title": "Başlık",
+  "Convert to markdown even if the title could not be retrieved from the URL.": "Başlık URL'den alınamasa bile markdown'a dönüştürün.",
+  "Toggle": "Geçiş",
+  "Change icon (or as text)": "Simgeyi değiştir (veya metin olarak)",
+  "Emoji or strings": "Emoji veya dizeler"
+}

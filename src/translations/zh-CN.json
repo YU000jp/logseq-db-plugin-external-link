@@ -1,0 +1,10 @@
+{
+  "Get the title from the site and convert the URL string in the block to markdown": "从站点获取标题，并将块中的 URL 字符串转换为 markdown",
+  "Title could not be retrieved from the site.": "无法从站点检索标题。",
+  "If the site is strict about fetch, nothing can be retrieved.": "如果网站对 fetch 严格要求，则无法检索任何内容。",
+  "Title": "标题",
+  "Convert to markdown even if the title could not be retrieved from the URL.": "即使无法从 URL 检索标题，也可以转换为 markdown。",
+  "Toggle": "切换",
+  "Change icon (or as text)": "更改图标（或文本）",
+  "Emoji or strings": "表情符号或字符串"
+}
