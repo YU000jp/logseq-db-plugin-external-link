@@ -1,8 +1,5 @@
 # Logseq Plugin: *External-link (Convert URL)*
 
-> [!WARNING]
->このプラグインはLogseq dbバージョンでのみ動作します。
-
 <div align="right">
   
 [English](https://github.com/YU000jp/logseq-db-plugin-external-link) | [日本語](https://github.com/YU000jp/logseq-db-plugin-external-link/blob/main/readme.ja.md)
