@@ -5,7 +5,6 @@ import { t } from "logseq-l10n" //https://github.com/sethyuan/logseq-l10n
 /* user setting */
 // https://logseq.github.io/plugins/types/SettingSchemaDesc.html
 export const settingsTemplate = (): SettingSchemaDesc[] => [
-
           {
                     key: "booleanInsertIfNotFoundTitle" ,
                     title: t("Convert to markdown even if the title could not be retrieved from the URL."),

@@ -1,35 +1,36 @@
 export const getTitleFromURL = async (url: string): Promise<string> => {
     try {
-        // URLがhttps://github.com/で始まる場合はフェッチせずにタイトルを返す fetchできないため
         if (url.startsWith("https://github.com/")) {
-            const title = url.substring("https://github.com/".length)
+            const title = extractTitleFromGitHubURL(url)
             console.log("GitHub URL detected, title: ", title)
             return title
         }
         console.log("fetch: ", url)
-        const res = await fetch(url) as Response
-        if (!res.ok) return ''
+        const response = await fetch(url)
+        if (!response.ok) return ''
 
-        // Content-Typeが"text/html"であるかを確認
-        const contentType = res.headers.get("content-type")
+        const contentType = response.headers.get("content-type")
         if (!contentType || !contentType.includes("text/html")) {
             console.log("Not an HTML response")
             return ''
         }
 
-        const { charset, title } = getEncodingConfigAndTitleFromHTML(await res.arrayBuffer() as ArrayBuffer)
+        const { charset, title } = extractCharsetAndTitleFromHTML(await response.arrayBuffer())
         if (title) {
             console.log("Get title: ", title)
             return title
         }
-    } catch (e) {
-        console.error(e)
+    } catch (error) {
+        console.error(error)
     }
     return ''
 }
 
+const extractTitleFromGitHubURL = (url: string): string => {
+    return url.substring("https://github.com/".length)
+}
 
-interface EncodingAndTitle {
+interface CharsetAndTitle {
     charset: string
     title: string | null
 }
@@ -40,7 +41,7 @@ const decodeHtmlEntities = (text: string): string => {
     return tempElement.value
 }
 
-const getEncodingConfigAndTitleFromHTML = (buffer: ArrayBuffer): EncodingAndTitle => {
+const extractCharsetAndTitleFromHTML = (buffer: ArrayBuffer): CharsetAndTitle => {
     const initialChunk = new Uint8Array(buffer, 0, Math.min(buffer.byteLength, 2048))
     let htmlString = new TextDecoder('utf-8').decode(initialChunk)
 
