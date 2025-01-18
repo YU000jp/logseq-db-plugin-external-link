@@ -17,8 +17,8 @@ Press the Convert button next to the URL and the URL string will be converted to
 
 ## Getting Started
 
-Install from Logseq Marketplace
-  - Press [`---`] on the top right toolbar to open [`Plugins`]. Select `Marketplace`. Type `URL` in the search field, select it from the search results and install.
+~~Install from Logseq Marketplace~~
+  - ~~Press [`---`] on the top right toolbar to open [`Plugins`]. Select `Marketplace`. Type `URL` in the search field, select it from the search results and install.~~
 
 ### Usage
 
