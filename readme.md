@@ -1,5 +1,7 @@
 # Logseq Plugin: *External-link (Convert URL)*
 
+> It is the successor of [Automatic URL title](https://github.com/0x7b1/logseq-plugin-automatic-url-title) plugin.
+
 <div align="right">
  
 [English](https://github.com/YU000jp/logseq-db-plugin-external-link) | [日本語](https://github.com/YU000jp/logseq-db-plugin-external-link/blob/main/readme.ja.md) [![latest release version](https://img.shields.io/github/v/release/YU000jp/logseq-db-plugin-external-link)](https://github.com/YU000jp/logseq-db-plugin-external-link/releases)
@@ -22,7 +24,7 @@ Press the Convert button next to the URL and the URL string will be converted to
 
 ### Usage
 
-- Paste the URL into the block and press Enter to exit edit mode.
+- Paste the URL into the block and press Enter or Esc to exit edit mode.
 - Only in non-editing mode, a conversion button appears next to the external link (URL string).
 - Pressing the convert button performs the fetch and if the title can be retrieved from the site, the URL string is converted to markdown.
 
@@ -30,15 +32,21 @@ Press the Convert button next to the URL and the URL string will be converted to
 
 - Toggle: Convert to markdown even if the title could not be retrieved from the URL.
 - Change icon (or as text)
+- Download the online PDF file and add to assets
 
 ---
 
 ## Showcase / Questions / Ideas / Help
 
 > Go to the [Discussions](https://github.com/YU000jp/logseq-db-plugin-external-link/discussions) tab to ask and find this kind of things.
-
+- Can be used in conjunction with
+  | Plugin | Description |
+  |--------|-------------|
+  | [Awesome Links](https://github.com/yoyurec/logseq-awesome-links) | Favicons for external links (with caching) |
+  | [Assets Plus](https://github.com/xyhp915/logseq-assets-plus/) | Browse assets. Find documents including PDFs. |
 
 ## Contribution / Prior art / Credit
 
+- Logseq Plugin > [@0x7b1/ automatic url title](https://github.com/0x7b1/logseq-plugin-automatic-url-title)
 - Icon > [icooon-mono.com](https://icooon-mono.com/10968-%e3%83%aa%e3%83%b3%e3%82%af%e3%81%ae%e3%83%95%e3%83%aa%e3%83%bc%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b31/)
 - Author > @[YU000jp](https://github.com/YU000jp)
