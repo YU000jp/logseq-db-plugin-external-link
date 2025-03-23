@@ -9,5 +9,7 @@
   "Emoji or strings": "絵文字もしくは文字列",
   "A file with the same name was found in the asset.": "同じ名前のファイルがアセット内に見つかりました。",
   "The file was saved into assets.": "ファイルはアセットに保存されました。",
-  "title": "タイトル"
+  "title": "タイトル",
+  "Download the online PDF file and add to assets": "オンラインのPDFファイルをダウンロードしてアセットに追加",
+  "Enable": "有効"
 }

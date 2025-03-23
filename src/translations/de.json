@@ -9,5 +9,7 @@
   "Emoji or strings": "Emoji oder Zeichenfolgen",
   "A file with the same name was found in the asset.": "Im Asset wurde eine Datei mit demselben Namen gefunden.",
   "The file was saved into assets.": "Die Datei wurde in Assets gespeichert.",
-  "title": "Titel"
+  "title": "Titel",
+  "Download the online PDF file and add to assets": "Laden Sie die Online-PDF-Datei herunter und fügen Sie sie zu Assets hinzu",
+  "Enable": "Ermöglichen"
 }

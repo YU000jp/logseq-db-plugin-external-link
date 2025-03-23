@@ -9,5 +9,7 @@
   "Emoji or strings": "表情符號或字串",
   "A file with the same name was found in the asset.": "在資產中找到同名的檔。",
   "The file was saved into assets.": "檔已保存到 assets 中。",
-  "title": "標題"
+  "title": "標題",
+  "Download the online PDF file and add to assets": "下載在線 PDF 檔並添加到資產",
+  "Enable": "使"
 }

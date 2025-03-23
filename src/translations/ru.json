@@ -9,5 +9,7 @@
   "Emoji or strings": "Эмодзи или строки",
   "A file with the same name was found in the asset.": "В активе был обнаружен файл с таким же именем.",
   "The file was saved into assets.": "Файл был сохранен в ассетах.",
-  "title": "титул"
+  "title": "титул",
+  "Download the online PDF file and add to assets": "Скачайте онлайн-файл PDF и добавьте в ресурсы",
+  "Enable": "Давать возможность"
 }

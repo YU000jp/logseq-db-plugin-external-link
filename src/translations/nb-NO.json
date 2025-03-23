@@ -9,5 +9,7 @@
   "Emoji or strings": "Emoji eller strenger",
   "A file with the same name was found in the asset.": "En fil med samme navn ble funnet i innholdselementet.",
   "The file was saved into assets.": "Filen ble lagret i ressurser.",
-  "title": "tittel"
+  "title": "tittel",
+  "Download the online PDF file and add to assets": "Last ned den elektroniske PDF-filen og legg til ressurser",
+  "Enable": "Aktivere"
 }

@@ -11,7 +11,7 @@ export const getTitleFromURL = async (url: string): Promise<Array<string>> => {
             // PDFの場合はダウンロードする
             if (url.endsWith(".pdf")) {
                 console.log("PDF file detected")
-                return [t("title"), await convertOnlinePDF(url) as string]
+                return [t("title"), logseq.settings!.onlinePDF as boolean === true ? await convertOnlinePDF(url) as string : url] // オンラインからPDFをダウンロードするかどうか
             }
         console.log("fetch: ", url)
         const response = await fetch(url)
