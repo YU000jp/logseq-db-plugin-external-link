@@ -1,4 +1,6 @@
-# Logseq Plugin: *External-link (Convert URL)*
+# Logseq プラグイン: *External-link (Convert URL)*
+
+> [Automatic URL title](https://github.com/0x7b1/logseq-plugin-automatic-url-title)プラグインの後継です。
 
 <div align="right">
   
