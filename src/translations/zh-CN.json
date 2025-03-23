@@ -6,5 +6,8 @@
   "Convert to markdown even if the title could not be retrieved from the URL.": "即使无法从 URL 检索标题，也可以转换为 markdown。",
   "Toggle": "切换",
   "Change icon (or as text)": "更改图标（或文本）",
-  "Emoji or strings": "表情符号或字符串"
+  "Emoji or strings": "表情符号或字符串",
+  "A file with the same name was found in the asset.": "在资产中找到同名的文件。",
+  "The file was saved into assets.": "文件已保存到 assets 中。",
+  "title": "标题"
 }

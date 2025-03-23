@@ -1,6 +1,6 @@
-import '@logseq/libs'; //https://plugins-doc.logseq.com/
+import '@logseq/libs' //https://plugins-doc.logseq.com/
 import { BlockEntity } from '@logseq/libs/dist/LSPlugin.user'
-import { setup as l10nSetup, t } from "logseq-l10n"; //https://github.com/sethyuan/logseq-l10n
+import { setup as l10nSetup, t } from "logseq-l10n" //https://github.com/sethyuan/logseq-l10n
 import { getTitleFromURL } from './getTitle'
 import { settingsTemplate } from './settings'
 import af from "./translations/af.json"
@@ -113,10 +113,10 @@ const handleButtonClick = async (buttonElement: HTMLButtonElement, url: string) 
     alert(msgNotFoundBlock + url)
 }
 
-const convertUrlInBlock = async (url: string, blockUuid: BlockEntity["uuid"]): Promise<boolean> => {
+const convertUrlInBlock = async (targetUrl: string, blockUuid: BlockEntity["uuid"]): Promise<boolean> => {
     const blockEntity = await logseq.Editor.getBlock(blockUuid, { includeChildren: false }) as { content: BlockEntity["content"] }
     if (blockEntity) {
-        let title = await getTitleFromURL(url)
+        let [title, url] = await getTitleFromURL(targetUrl)
         if (title === "") {
             const msg = `${t("Title could not be retrieved from the site.")}\n${t("If the site is strict about fetch, nothing can be retrieved.")}`
             logseq.UI.showMsg(msg + `\n\nURL: ${url}`, "info", { timeout: 3000 })
@@ -128,12 +128,12 @@ const convertUrlInBlock = async (url: string, blockUuid: BlockEntity["uuid"]): P
         }
         const replacedTitle = sanitizeTitle(title)
         const blockContent = blockEntity.content
-            .replace(`[${url}](${url})`, `[${replacedTitle}](${url})`)
-            .replace(url, `[${replacedTitle}](${url})`)
+            .replace(`[${targetUrl}](${targetUrl})`, `${url.endsWith(".pdf") ? "!" : ""}[${replacedTitle}](${url})`)
+            .replace(targetUrl, `${url.endsWith(".pdf") ? "!" : ""}[${replacedTitle}](${url})`)
         await logseq.Editor.updateBlock(blockUuid, blockContent)
         return true
     } else {
-        alert(msgNotFoundBlock + url)
+        alert(msgNotFoundBlock + targetUrl)
         return false
     }
 }

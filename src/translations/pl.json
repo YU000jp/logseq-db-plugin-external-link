@@ -6,5 +6,8 @@
   "Convert to markdown even if the title could not be retrieved from the URL.": "Konwertuj na markdown, nawet jeśli nie można pobrać tytułu z adresu URL.",
   "Toggle": "Przełączać",
   "Change icon (or as text)": "Zmień ikonę (lub jako tekst)",
-  "Emoji or strings": "Emotikony lub ciągi znaków"
+  "Emoji or strings": "Emotikony lub ciągi znaków",
+  "A file with the same name was found in the asset.": "W zasobie znaleziono plik o tej samej nazwie.",
+  "The file was saved into assets.": "Plik został zapisany w zasobach.",
+  "title": "tytuł"
 }

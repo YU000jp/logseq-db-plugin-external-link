@@ -6,5 +6,8 @@
   "Convert to markdown even if the title could not be retrieved from the URL.": "Konversi ke markdown meskipun judul tidak dapat diambil dari URL.",
   "Toggle": "Beralih",
   "Change icon (or as text)": "Ubah ikon (atau sebagai teks)",
-  "Emoji or strings": "Emoji atau string"
+  "Emoji or strings": "Emoji atau string",
+  "A file with the same name was found in the asset.": "File dengan nama yang sama ditemukan di aset.",
+  "The file was saved into assets.": "File disimpan ke dalam aset.",
+  "title": "titel"
 }

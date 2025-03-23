@@ -6,5 +6,8 @@
   "Convert to markdown even if the title could not be retrieved from the URL.": "Konvertujte na markdown aj v prípade, že názov nebolo možné načítať z URL adresy.",
   "Toggle": "Prepnúť",
   "Change icon (or as text)": "Zmeniť ikonu (alebo ako text)",
-  "Emoji or strings": "Emodži alebo reťazce"
+  "Emoji or strings": "Emodži alebo reťazce",
+  "A file with the same name was found in the asset.": "V diele sa našiel súbor s rovnakým názvom.",
+  "The file was saved into assets.": "Súbor bol uložený do aktív.",
+  "title": "titul"
 }

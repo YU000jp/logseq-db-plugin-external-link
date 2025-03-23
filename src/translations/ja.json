@@ -6,5 +6,8 @@
   "Convert to markdown even if the title could not be retrieved from the URL.": "タイトルがURLから取得できなかった場合でも、マークダウンに変換します。",
   "Toggle": "トグル",
   "Change icon (or as text)": "アイコンの変更（またはテキスト）",
-  "Emoji or strings": "絵文字もしくは文字列"
+  "Emoji or strings": "絵文字もしくは文字列",
+  "A file with the same name was found in the asset.": "同じ名前のファイルがアセット内に見つかりました。",
+  "The file was saved into assets.": "ファイルはアセットに保存されました。",
+  "title": "タイトル"
 }

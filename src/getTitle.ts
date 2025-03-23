@@ -1,29 +1,37 @@
-export const getTitleFromURL = async (url: string): Promise<string> => {
+import { t } from "logseq-l10n"
+import { convertOnlinePDF } from "./convertPDF"
+
+export const getTitleFromURL = async (url: string): Promise<Array<string>> => {
     try {
         if (url.startsWith("https://github.com/")) {
             const title = extractTitleFromGitHubURL(url)
             console.log("GitHub URL detected, title: ", title)
-            return title
-        }
+            return [title, url]
+        } else
+            // PDFの場合はダウンロードする
+            if (url.endsWith(".pdf")) {
+                console.log("PDF file detected")
+                return [t("title"), await convertOnlinePDF(url) as string]
+            }
         console.log("fetch: ", url)
         const response = await fetch(url)
-        if (!response.ok) return ''
+        if (!response.ok) return ["", url]
 
         const contentType = response.headers.get("content-type")
         if (!contentType || !contentType.includes("text/html")) {
             console.log("Not an HTML response")
-            return ''
+            return ["", url]
         }
 
         const { charset, title } = extractCharsetAndTitleFromHTML(await response.arrayBuffer())
         if (title) {
             console.log("Get title: ", title)
-            return title
+            return [title, url]
         }
     } catch (error) {
         console.error(error)
     }
-    return ''
+    return ["", url]
 }
 
 const extractTitleFromGitHubURL = (url: string): string => {

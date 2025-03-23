@@ -6,5 +6,8 @@
   "Convert to markdown even if the title could not be retrieved from the URL.": "Converteren naar markdown, zelfs als de titel niet uit de URL kan worden opgehaald.",
   "Toggle": "Knevel",
   "Change icon (or as text)": "Pictogram wijzigen (of als tekst)",
-  "Emoji or strings": "Emoji of tekenreeksen"
+  "Emoji or strings": "Emoji of tekenreeksen",
+  "A file with the same name was found in the asset.": "Er is een bestand met dezelfde naam gevonden in het item.",
+  "The file was saved into assets.": "Het bestand is opgeslagen in activa.",
+  "title": "titel"
 }

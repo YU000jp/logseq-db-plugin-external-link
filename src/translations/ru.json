@@ -6,5 +6,8 @@
   "Convert to markdown even if the title could not be retrieved from the URL.": "Преобразуйте в Markdown, даже если заголовок не удалось получить из URL-адреса.",
   "Toggle": "Коленчатый рычаг",
   "Change icon (or as text)": "Изменить иконку (или как текст)",
-  "Emoji or strings": "Эмодзи или строки"
+  "Emoji or strings": "Эмодзи или строки",
+  "A file with the same name was found in the asset.": "В активе был обнаружен файл с таким же именем.",
+  "The file was saved into assets.": "Файл был сохранен в ассетах.",
+  "title": "титул"
 }

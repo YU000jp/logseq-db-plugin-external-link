@@ -6,5 +6,8 @@
   "Convert to markdown even if the title could not be retrieved from the URL.": "Başlık URL'den alınamasa bile markdown'a dönüştürün.",
   "Toggle": "Geçiş",
   "Change icon (or as text)": "Simgeyi değiştir (veya metin olarak)",
-  "Emoji or strings": "Emoji veya dizeler"
+  "Emoji or strings": "Emoji veya dizeler",
+  "A file with the same name was found in the asset.": "Varlıkta aynı ada sahip bir dosya bulundu.",
+  "The file was saved into assets.": "Dosya varlıklar halinde kaydedildi.",
+  "title": "başlık"
 }

@@ -6,5 +6,8 @@
   "Convert to markdown even if the title could not be retrieved from the URL.": "Konverter til markdown selv om tittelen ikke kunne hentes fra URL-en.",
   "Toggle": "Veksle",
   "Change icon (or as text)": "Endre ikon (eller som tekst)",
-  "Emoji or strings": "Emoji eller strenger"
+  "Emoji or strings": "Emoji eller strenger",
+  "A file with the same name was found in the asset.": "En fil med samme navn ble funnet i innholdselementet.",
+  "The file was saved into assets.": "Filen ble lagret i ressurser.",
+  "title": "tittel"
 }

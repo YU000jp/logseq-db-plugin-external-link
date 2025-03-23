@@ -6,5 +6,8 @@
   "Convert to markdown even if the title could not be retrieved from the URL.": "Skakel om na afmerking, selfs al kon die titel nie van die URL gehaal word nie.",
   "Toggle": "Verwissel",
   "Change icon (or as text)": "Verander ikoon (of as teks)",
-  "Emoji or strings": "Emoji's of snare"
+  "Emoji or strings": "Emoji's of snare",
+  "A file with the same name was found in the asset.": "'n Lêer met dieselfde naam is in die bate gevind.",
+  "The file was saved into assets.": "Die lêer is in bates gestoor.",
+  "title": "Titel"
 }
